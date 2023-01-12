@@ -1,0 +1,72 @@
+<html>
+<head>
+<link href="asset/css/style.css" rel="stylesheet">
+<title>home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="topnav">
+  <a class="active" 
+  href="index.html">Home</a>
+  <a href="about me.html">About me</a>
+  <a href="education.html">Education</a>
+  <a href="skills.html">Skills</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">gallery</a> 
+  <a href="https://www.instagram.com/nxsimhxdirxh/" target="_blank"> <img src="asset/image/ig.png" width="20px" heigh="20px"></a>  
+  <a href= "https://wa.me/60162325540/" target="_blank"> <img src="asset/image/whatsapp.png" width="20px" heigh="20px"></a>
+</div>
+
+
+<video width="100%" autoplay loop muted>
+<source src="asset/video/purple2.mp4" type="video/mp4">
+</video></div>
+<center>
+
+<div class="bg-text-1">
+<center>
+<div id="clock">07:06:40</div>
+ 
+    <script>
+        setInterval(showTime, 1000);
+        function showTime() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            am_pm = "AM";
+ 
+            if (hour > 12) {
+                hour -= 12;
+                am_pm = "PM";
+            }
+            if (hour == 0) {
+                hr = 12;
+                am_pm = "AM";
+            }
+ 
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+ 
+            let currentTime = hour + ":"
+                + min + ":" + sec + am_pm;
+ 
+            document.getElementById("clock")
+                .innerHTML = currentTime;
+        }
+ 
+        showTime();
+    </script>
+  <img class="profile" src="asset/image/nasim1.png" width="18%"
+  <br>
+  <p class="main2"> <b><sup>WELCOME</sup> | أهلا وسهلا | <sub>SELAMAT DATANG </font></p>
+  <p>From this website, you will get to know some of my information.</p>
+  <br>
+  <a href= "About me.html" > <img src="asset/image/diamond.png" width="100px" heigh="100px"></a></button>
+  <br>
+
+</body>
+
+</html>
